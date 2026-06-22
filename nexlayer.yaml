@@ -1,0 +1,10 @@
+application:
+  name: sakuli
+  pods:
+  - name: app
+    image: consol/sakuli-ubuntu-xfce:latest
+    path: /
+    servicePorts:
+    - 6901
+    vars:
+      VNC_PW: changeme123
