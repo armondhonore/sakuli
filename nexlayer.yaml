@@ -2,7 +2,7 @@ application:
   name: sakuli
   pods:
   - name: app
-    image: consol/sakuli-ubuntu-xfce:latest
+    image: mirror.gcr.io/consol/sakuli-ubuntu-xfce:latest
     path: /
     servicePorts:
     - 6901
